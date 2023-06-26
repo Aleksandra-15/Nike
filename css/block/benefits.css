@@ -1,0 +1,39 @@
+.benefits {
+  background: url(../../img/backgrund.png) center/cover no-repeat;
+  padding: 45px;
+}
+.lists {
+  border: 5px solid #8e32c6;
+  width: 1110px;
+  height: 396px;
+  margin: 185px;
+  padding-left: 0px;
+}
+.lists h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.lists {
+  list-style-type: none;
+}
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.list1 {
+  border-right: 1px solid #fff;
+  padding-right: 75px;
+}
+
+.list2 {
+  border-right: 1px solid #fff;
+  padding-right: 75px;
+}
+/* .benefits {
+  background: url(./img/background.png);
+} */

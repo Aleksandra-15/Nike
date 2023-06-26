@@ -1,0 +1,73 @@
+.preview {
+  background: url(../../img/crosu.png) center/cover no-repeat;
+  padding: 100px;
+}
+.preview h2 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.preview_logo h2 {
+  display: flex;
+  width: 128px;
+  height: 86px;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h2 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+
+  color: #ffffff;
+}
+.preview h1 {
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 192px; /* identical to box height */
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 41px;
+  margin-top: 12px;
+  color: #ffffff;
+}
+.bnt {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  width: 254px;
+  height: 67px;
+  color: #ffffff;
+  background: #8e32c6;
+  border-radius: 10px;
+  border: 0;
+}
+.preview_logo img {
+  display: flex;
+  width: 178px;
+  height: 86px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.preview_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

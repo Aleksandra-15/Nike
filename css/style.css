@@ -1,0 +1,10 @@
+@import "./block/header.css";
+@import "./block/main_page.css";
+@import "./block/reviews.css";
+@import "./block/benefits.css";
+@import "./block/order.css";
+@import "./block/footer.css";
+body {
+  font-family: "Playfair Display";
+  font-style: normal;
+}
