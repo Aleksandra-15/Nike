@@ -4,7 +4,14 @@
 @import "./block/benefits.css";
 @import "./block/order.css";
 @import "./block/footer.css";
+/* @media screen and (max-width: 767px) {
+  ...
+} */
 body {
   font-family: "Playfair Display";
   font-style: normal;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }

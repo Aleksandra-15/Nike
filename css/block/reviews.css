@@ -1,6 +1,15 @@
 .reviews {
   background: url(../../img/backgraund-reviews.png) center/cover no-repeat;
-  padding: 45px;
+}
+.reviews-bg {
+  background: url(../../img/цветы.png) left bottom no-repeat;
+}
+hr {
+  width: 1580px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  height: 2px;
 }
 .flover {
   width: 340px;
@@ -8,12 +17,13 @@
   flex-shrink: 0;
 }
 .reviews h2 {
-  font-family: "Playfair Display";
-  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 200;
   font-size: 46px;
   line-height: 48px;
   text-align: center;
+  padding: 25px;
 
   color: #ffffff;
 }
@@ -29,6 +39,13 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.reviews h6 {
+  color: #d8d8d8;
+  font-size: 15px;
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .revis {
   list-style-type: none;
 }
@@ -36,6 +53,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 114px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .reviews h5 {
   color: #fff;
@@ -44,7 +64,22 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.revi1 {
+h4 {
+  padding: 0px 14px 0 14px;
+}
+.revi-list p {
+  padding: 0px 14px 0 14px;
+}
+.revi-list-grand p {
+  padding: 0px 14px 0 14px;
+}
+.revi_list p {
+  padding: 0px 14px 0 14px;
+}
+.revi-list {
+  margin-right: 10px;
+  flex: 1;
+  transition: all 0.3s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -55,9 +90,12 @@
     #9a76f9 62.5%,
     #cc5ec2 100%
   );
-  box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7b54b2;
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
-.revi2 {
+.revi-list-grand {
+  margin-right: 10px;
+  flex: 1;
+  transition: all 0.3s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -68,9 +106,11 @@
     #ce3aff 62.84%,
     #8961ff 100%
   );
-  box-shadow: 0px 30px 0px -13px #61337c, 0px 14px 0px -5px #9159b1;
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
-.revi3 {
+.revi_list {
+  flex: 1;
+  transition: all 0.3s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -81,9 +121,20 @@
     #ff8381 63.29%,
     #ff5489 100%
   );
-  box-shadow: 0px 30px 0px -13px #732f26, 0px 14px 0px -5px #b95a4c;
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
+.revi-list:hover {
+  flex: 2;
+}
+.revi-list-grand:hover {
+  flex: 2;
+}
+.revi_list:hover {
+  flex: 2;
+}
+
 .sochial {
+  padding: 0px 14px 0 14px;
   display: flex;
   align-items: center;
   margin-top: 45px;
@@ -91,3 +142,9 @@
 .tecst {
   padding: 10px;
 }
+/* .gallery{
+
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+} */

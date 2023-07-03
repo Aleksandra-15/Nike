@@ -24,9 +24,8 @@ footer a {
   justify-content: space-around;
   padding: 45px;
 }
-hr {
-  width: 1175px;
-  height: 1px;
+.hr_foot {
+  width: 1110px;
   background: #9b9b9b;
   border: 0;
 }

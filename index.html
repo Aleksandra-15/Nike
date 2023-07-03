@@ -6,12 +6,14 @@
     <title>Nike</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet" />
+      <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -19,132 +21,163 @@
     <header class="header">
       <div class="container">
         <div class="header_block">
-          <img src="./icons/nike.svg" alt="nike" />
+          <a class="header-logo" href="#"
+            ><img src="./icons/nike.svg" alt="nike"
+          /></a>
           <nav>
             <ul class="nav-lists">
               <li class="nav-item"><a href="#">Main page</a></li>
-              <li class="nav-item"><a href="*benefits">Benefits</a></li>
+              <li class="nav-item"><a href="#benefits">Benefits</a></li>
               <li class="nav-item"><a href="#">Advantages</a></li>
-              <li class="nav-item"><a href="*reviews">Reviews</a></li>
-              <li class="nav-item"><a href="*adress">Contacts</a></li>
-              <li class="nav-item"><a href="*order">Order</a></li>
+              <li class="nav-item"><a href="#reviews">Reviews</a></li>
+              <li class="nav-item"><a href="#adress">Contacts</a></li>
+              <li class="nav-item"><a href="#order">Order</a></li>
             </ul>
           </nav>
+          <div class="header-language">
+            <a href="#">Ua</a>
+            <a href="#">Eng</a>
+          </div>
         </div>
-      </div>
-      <div class="header-language">
-        <a href="#">Ua</a>
-        <a href="#">Eng</a>
       </div>
     </header>
     <main>
-      <section class="preview">
-        <div class="preview_logo">
-          <img src="./img/Nike.png" alt="Nike" />
-          <h2>C&R</h2>
+      <section class="preview" id="reviews">
+        <div class="container">
+          <div class="preview_logo">
+            <img src="./img/Nike.png" alt="Nike" />
+            <h2>C&R</h2>
+          </div>
+          <h1>ColoRawe</h1>
+          <h2 class="subtitle">Your dream Nike</h2>
+          <p class="text">
+            On this site you can find custom Nike sneakers of your dreams.
+            <br />
+            The original company caт`t create such beautiful <br />
+            sneakers as we do. <br />
+            Good luck finding your way in the world of custom sneakers. <br />
+          </p>
+          <button class="btn">Buy my Nike</button>
         </div>
-        <h1>ColoRawe</h1>
-        <h2>Your dream Nike</h2>
-        <p class="text">
-          On this site you can find custom Nike sneakers of your dreams. <br />
-          The original company caт`t create such beautiful <br />
-          sneakers as we do. <br />
-          Good luck finding your way in the world of custom sneakers. <br />
-        </p>
-        <button class="bnt">Buy my Nike</button>
       </section>
-      <section class="benefits">
-        <ul class="lists">
-          <li class="list1">
-            <h3>
-              Premium <br />
-              Quality
-            </h3>
-            <img src="./img/stars.png" alt="stars" />
-          </li>
-          <li class="list2">
-            <img src="./img/color.png" alt="color" />
-            <h3>
-              Indelible <br />
-              paint
-            </h3>
-          </li>
-          <li class="list3">
-            <h3>
-              Fast <br />
-              shipping
-            </h3>
-            <img src="./img/auto.png" alt="auto" />
-          </li>
-        </ul>
+      <section class="benefits" id="benefits">
+        <div class="container">
+          <ul class="benefits-lists">
+            <li class="benefits-list-item">
+              <h3 class="benefits-title">
+                Premium <br />
+                Quality
+              </h3>
+              <div class="benefits-img">
+                <img src="./img/stars.png" alt="stars" />
+              </div>
+            </li>
+            <li class="list2">
+              <div class="benefits-img">
+                <img src="./img/color.png" alt="color" />
+              </div>
+              <h3 class="benefits-title">
+                Indelible <br />
+                paint
+              </h3>
+            </li>
+            <li class="list3">
+              <h3 class="benefits-title">
+                Fast <br />
+                shipping
+              </h3>
+              <div class="benefits-img">
+                <img src="./img/auto.png" alt="auto" />
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
+      <hr />
       <section class="reviews">
-        <h2>Reviews</h2>
-        <div class="flover">
-          <img src="./img/цветы.png" alt="flovers" />
+        <div class="reviews-bg">
+          <div class="container">
+            <h2>Reviews</h2>
+
+           <div class="gallery">
+            <ul class="revis">
+              <li class="revi-list">
+                <p>
+                  Sneakers are very comfortable and well painted, nothing has
+                  worn off in a year.
+                </p>
+                <h4>25.11</h4>
+                <div class="sochial">
+                  <div class="img">
+                    <img src="./icons/john.png" alt="john" />
+                  </div>
+                  <div class="tecst">
+                    <h5>John Teylor</h5>
+                    <h6>With us from 2018</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="revi-list-grand">
+                <p>
+                  I'm very happy with this color scheme. They match all my
+                  clothes.
+                </p>
+                <h4>05.01</h4>
+                <div class="sochial">
+                  <div class="img">
+                    <img src="./icons/Elizabet.png" alt="Elizabet" />
+                  </div>
+                  <div class="tecst">
+                    <h5>Elizabeth Garsia</h5>
+                    <h6>With us from 2020</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="revi_list">
+                <p>
+                  Just right if you need to go to a party. I use them actively,
+                  the paint is super.
+                </p>
+                <h4>18.06</h4>
+                <div class="sochial">
+                  <div class="img">
+                    <img src="./icons/tom.png" alt="tom" />
+                  </div>
+                  <div class="tecst">
+                    <h5>Tom Maquare</h5>
+                    <h6>With us from 2019n</h6>
+                  </div>
+                </div>
+              </li>
+            </ul>
+           </div>
+          </div>
         </div>
-        <ul class="revis">
-          <li class="revi1">
-            <p>
-              Sneakers are very comfortable and well painted, nothing has worn
-              off in a year.
-            </p>
-            <h4>25.11</h4>
-            <div class="sochial">
-              <div class="img">
-                <img src="./icons/john.png" alt="john" />
-              </div>
-              <div class="tecst">
-                <h5>John Teylor</h5>
-                <h4>With us from 2018</h4>
-              </div>
-            </div>
-          </li>
-          <li class="revi2">
-            <p>
-              I'm very happy with this color scheme. They match all my clothes.
-            </p>
-            <h4>05.01</h4>
-            <div class="sochial">
-              <div class="img">
-                <img src="./icons/Elizabet.png" alt="Elizabet" />
-              </div>
-              <div class="tecst">
-                <h5>Elizabeth Garsia</h5>
-                <h4>With us from 2020</h4>
-              </div>
-            </div>
-          </li>
-          <li class="revi3">
-            <p>
-              Just right if you need to go to a party. I use them actively, the
-              paint is super.
-            </p>
-            <h4>18.06</h4>
-            <div class="sochial">
-              <div class="img">
-                <img src="./icons/tom.png" alt="tom" />
-              </div>
-              <div class="tecst">
-                <h5>Tom Maquare</h5>
-                <h4>With us from 2019n</h4>
-              </div>
-            </div>
-          </li>
-        </ul>
       </section>
-      <section class="order">
-        <h2 class="title">Order</h2>
-        <input type="text" placeholder="Write your email" button="Confirm" />
-        <input class="inpuut" placeholder="Your Country" />
-        <input class="inpuut" placeholder="Your City" />
-        <input class="inpuut" placeholder="Your Adress" />
-        <button class="btn">Order my Nike</button>
+      <hr />
+      <section class="order" id="order">
+        <div class="container">
+         <div class="cnt">
+          <h2 class="title">Order</h2>
+          <form >
+          <form>
+            <input class="text" type="email" placeholder="Write your email" />
+            <button class="submit">Confirm</button>
+          </form>
+        
+            <input class="inpuut" placeholder="Your Country" />
+          <input class="inpuut" placeholder="Your City" />
+          <input class="inpuut" placeholder="Your Adress" />
+
+          </form>
+          <button class="btn">Order my Nike</button>
+         </div>
+        </div>
       </section>
     </main>
-    <footer class="adress">
-      <div class="conteiner">
-        <div class="cavun">
+    <footer class="adress" id="adress">
+      <div class="container">
+        <div class="inner">
           <div class="blox">
             <div class="div2">
               <h3>Have a question?</h3>
@@ -164,7 +197,7 @@
             </div>
           </div>
 
-          <hr />
+          <hr class="hr_foot" />
           <div class="bocs">
             <div class="div2">
               <p>2022 ColoRawe @All rights reserved</p>
