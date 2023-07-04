@@ -1,7 +1,6 @@
 .order {
   background: url(../../img/backgraund-order.png) center/cover no-repeat;
-  padding-bottom: 105px;
-  padding-top: 105px;
+  padding:20px 0 35px 0 ;
 }
 
 .title {

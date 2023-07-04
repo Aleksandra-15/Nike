@@ -15,12 +15,13 @@ header {
 }
 .header_block {
   display: flex;
-  gap: 90px;
+
   align-items: center;
 }
 
 .nav-lists {
-  width: 881px;
+ gap: 30px;
+ padding: 0;
   margin: auto;
   display: flex;
   justify-content: space-around;

@@ -1,10 +1,10 @@
 .preview {
   background: url(../../img/crosu.png) center/cover no-repeat;
-  padding-bottom: 100px;
+  padding-bottom: 183px;
   padding-top: 230px;
+  margin-top: 93px;
 }
 .subtitle {
-
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
@@ -43,7 +43,6 @@ h2 {
   color: #ffffff;
 }
 .preview h1 {
- 
   font-weight: 400;
   font-size: 144px;
   line-height: 192px; /* identical to box height */
@@ -52,7 +51,6 @@ h2 {
   margin-top: 0;
 }
 .text {
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -61,11 +59,12 @@ h2 {
   margin-left: 0px;
   color: #ffffff;
 }
-.btn:hover{
+.btn:hover {
   transform: skew(15deg, 5deg);
 }
 .btn {
- transition: 0.5s ease infinite;
+  margin-top: 40px;
+  transition: 0.5s ease infinite;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
@@ -81,10 +80,8 @@ h2 {
   width: 178px;
   height: 86px;
   flex-direction: column;
-
 }
 .preview_logo {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;

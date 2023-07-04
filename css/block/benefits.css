@@ -5,10 +5,15 @@
 }
 .benefits-lists {
   border: 5px solid #8e32c6;
-  width: 1110px;
+
   height: 396px;
  
   padding-left: 0px;
+}
+.benefits-item{
+  height: 346px;
+  border-right: 1px solid #fff;
+  padding-right: 50px;
 }
 .benefits-title {
   font-weight: 400;
@@ -29,18 +34,4 @@
 .benefits-list {
   border-right: 1px solid #fff;
   padding-right: 75px;
-}
-.benefits-title{
-  text-align: center;
-  display: inline;
-  color:#8e32c6;
-  background-image: linear-gradient(#8e32c6, #8e32c6
-  );
-  background-repeat: no-repeat;
-  background-size: 300% 300%;
-  transition: background-size 800ms, color 700ms;
-}
-.benefits-title:hover{
-  background-size: 0% 100%;
-  color: #fff;
 }

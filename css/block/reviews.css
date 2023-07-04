@@ -2,10 +2,11 @@
   background: url(../../img/backgraund-reviews.png) center/cover no-repeat;
 }
 .reviews-bg {
+  padding: 25px 0 115px 0;
   background: url(../../img/цветы.png) left bottom no-repeat;
 }
 hr {
-  width: 1580px;
+
   margin-top: 0px;
   margin-bottom: 0px;
   color: #fff;
@@ -17,13 +18,12 @@ hr {
   flex-shrink: 0;
 }
 .reviews h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+ margin: 0;
   font-weight: 200;
   font-size: 46px;
   line-height: 48px;
   text-align: center;
-  padding: 25px;
+
 
   color: #ffffff;
 }
@@ -53,9 +53,8 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 114px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+padding: 0;
+margin-top: 24px;
 }
 .reviews h5 {
   color: #fff;
@@ -77,8 +76,7 @@ h4 {
   padding: 0px 14px 0 14px;
 }
 .revi-list {
-  margin-right: 10px;
-  flex: 1;
+
   transition: all 0.3s ease;
   width: 255px;
   height: 292px;
@@ -93,8 +91,7 @@ h4 {
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 .revi-list-grand {
-  margin-right: 10px;
-  flex: 1;
+
   transition: all 0.3s ease;
   width: 255px;
   height: 292px;
@@ -111,7 +108,7 @@ h4 {
 }
 
 .revi_list {
-  flex: 1;
+
   transition: all 0.3s ease;
   width: 255px;
   height: 292px;
