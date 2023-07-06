@@ -3,7 +3,7 @@
 }
 .reviews-bg {
   padding: 25px 0 115px 0;
-  background: url(../../img/цветы.png) left bottom no-repeat;
+  background: url(../../img/flowers.png) left bottom no-repeat;
 }
 hr {
 
@@ -136,7 +136,7 @@ h4 {
   padding: 0px 14px 0 14px;
   display: flex;
   align-items: center;
-  margin-top: 45px;
+
 }
 .tecst {
   padding: 10px;

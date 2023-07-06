@@ -59,21 +59,22 @@ h2 {
   margin-left: 0px;
   color: #ffffff;
 }
-.btn:hover {
+.bnt:hover {
   transform: skew(15deg, 5deg);
 }
-.btn {
-  margin-top: 40px;
-  transition: 0.5s ease infinite;
+.bnt {
+  border-radius: 16px;
+  width: 248px;
+  height: 68px;
+  background: #8e32c6;
+  border: 0;
+  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  width: 254px;
-  height: 67px;
-  color: #ffffff;
-  background: #8e32c6;
-  border-radius: 10px;
-  border: 0;
+
+  display: block;
+
 }
 .preview_logo img {
   display: flex;
