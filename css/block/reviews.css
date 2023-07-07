@@ -77,7 +77,7 @@ h4 {
 }
 .revi-list {
 
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -92,7 +92,7 @@ h4 {
 }
 .revi-list-grand {
 
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -109,7 +109,7 @@ h4 {
 
 .revi_list {
 
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
   width: 255px;
   height: 292px;
   border-radius: 15px;

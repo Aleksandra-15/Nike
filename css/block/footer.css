@@ -69,3 +69,6 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
+.block{
+  padding: 45px 0 50px 0;
+}
