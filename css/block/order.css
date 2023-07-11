@@ -27,6 +27,7 @@
   margin: 0 auto;
   display: block;
   transition: 0.1s;
+  cursor:pointer;
 }
 .btn:hover {
   transform: skew(15deg, 5deg);

@@ -63,6 +63,7 @@ h2 {
   transform: skew(15deg, 5deg);
 }
 .bnt {
+  cursor: pointer;
   border-radius: 16px;
   width: 248px;
   height: 68px;
@@ -72,9 +73,9 @@ h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-transition: 0.1s;
+  margin-top: 40px;
+  transition: 0.1s;
   display: block;
-
 }
 .preview_logo img {
   display: flex;

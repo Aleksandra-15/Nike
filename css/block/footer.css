@@ -31,11 +31,12 @@ footer a {
   margin: 0 auto;
 }
 .footer_h5 {
-  color: #fff;
-  font-size: 24px;
-  font-family: PT Serif;
-  margin: 0;
-  display: flex;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer_block {
@@ -69,6 +70,6 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
-.block{
+.block {
   padding: 45px 0 50px 0;
 }

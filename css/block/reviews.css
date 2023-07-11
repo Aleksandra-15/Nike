@@ -36,8 +36,9 @@ hr {
   color: #d8d8d8;
   font-size: 15px;
   font-family: Roboto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
 }
 .reviews h6 {
   color: #d8d8d8;
@@ -66,20 +67,12 @@ margin-top: 24px;
 h4 {
   padding: 0px 14px 0 14px;
 }
-.revi-list p {
-  padding: 0px 14px 0 14px;
-}
-.revi-list-grand p {
-  padding: 0px 14px 0 14px;
-}
-.revi_list p {
-  padding: 0px 14px 0 14px;
-}
+
 .revi-list {
 
   transition: all 0.8s ease;
   width: 255px;
-  height: 292px;
+
   border-radius: 15px;
   background: linear-gradient(
     135deg,
@@ -94,7 +87,7 @@ h4 {
 
   transition: all 0.8s ease;
   width: 255px;
-  height: 292px;
+  
   border-radius: 15px;
   background: linear-gradient(
     135deg,
@@ -111,7 +104,7 @@ h4 {
 
   transition: all 0.8s ease;
   width: 255px;
-  height: 292px;
+
   border-radius: 15px;
   background: linear-gradient(
     135deg,
@@ -133,7 +126,8 @@ h4 {
 }
 
 .sochial {
-  padding: 0px 14px 0 14px;
+margin-top: 50px;
+padding: 0;
   display: flex;
   align-items: center;
 
