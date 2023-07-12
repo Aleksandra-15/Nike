@@ -8,15 +8,15 @@
   border: 5px solid #8e32c6;
 
   height: 490px;
- 
+
   padding-left: 0px;
 }
-.benefits-item{
+.benefits-item {
   height: 346px;
   border-right: 1px solid #fff;
   padding-right: 50px;
 }
-.benefits-item-none{
+.benefits-item-none {
   height: 346px;
   border-right: 0 solid #fff;
   padding-right: 50px;

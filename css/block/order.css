@@ -27,7 +27,7 @@
   margin: 0 auto;
   display: block;
   transition: 0.1s;
-  cursor:pointer;
+  cursor: pointer;
 }
 .btn:hover {
   transform: skew(15deg, 5deg);
@@ -39,7 +39,8 @@
   gap: 19px;
   padding-bottom: 19px;
 }
-.order-email {  color: #8d8d8d;
+.order-email {
+  color: #8d8d8d;
   font-size: 28px;
   font-weight: 400;
   line-height: normal;
@@ -66,7 +67,7 @@
   font-weight: 400;
   line-height: normal;
 }
-.inpuut{
+.inpuut {
   color: #8d8d8d;
   font-size: 28px;
   font-weight: 400;
