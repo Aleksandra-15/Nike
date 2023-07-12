@@ -37,6 +37,8 @@ footer a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer_block {
