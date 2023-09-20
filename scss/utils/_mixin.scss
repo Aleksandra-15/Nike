@@ -16,16 +16,19 @@
   font-weight: 400;
   line-height: normal;
 }
-@mixin title($size){
-    color: $color_2;
-    text-align: center;
-    font-family: Playfair Display;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+@mixin title($size) {
+  color: $color_2;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+  
 }
-@mixin button{
+@mixin button {
   border-radius: 16px;
   width: 248px;
   height: 68px;
