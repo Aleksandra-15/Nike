@@ -1,0 +1,44 @@
+@mixin subtitle($size) {
+  font-family: $font-family_2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: $color_2;
+}
+@mixin subtext($color, $size) {
+  color: $color_2;
+  font-family: $font-family_1;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin title($size){
+    color: $color_2;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@mixin button{
+  border-radius: 16px;
+  width: 248px;
+  height: 68px;
+  background: #8e32c6;
+  border: 0;
+  color: $color_2;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  transition: 0.1s;
+  cursor: pointer;
+  &:hover {
+    transform: skew(15deg, 5deg);
+  }
+}

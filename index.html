@@ -6,34 +6,37 @@
     <title>Nike</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_block">
-          <a class="header-logo" href="#"
+        <div class="header__block">
+          <a class="header__logo" href="#"
             ><img src="./icons/nike.svg" alt="nike"
           /></a>
           <nav>
-            <ul class="nav-lists">
-              <li class="nav-item"><a href="#">Main page</a></li>
-              <li class="nav-item"><a href="#benefits">Benefits</a></li>
-              <li class="nav-item"><a href="#advantages">Advantages</a></li>
-              <li class="nav-item"><a href="#reviews">Reviews</a></li>
-              <li class="nav-item"><a href="#adress">Contacts</a></li>
-              <li class="nav-item"><a href="#order">Order</a></li>
+            <ul class="header__list">
+              <li class="header__item"><a class="#">Main page</a></li>
+              <li class="header__item"><a class="#benefits">Benefits</a></li>
+              <li class="header__item"><a href="#advantages">Advantages</a></li>
+              <li class="header__item"><a class="#reviews">Reviews</a></li>
+              <li class="header__item"><a class="#adress">Contacts</a></li>
+              <li class="header__item"><a class="#order">Order</a></li>
             </ul>
           </nav>
-          <div class="header-language">
+          <div class="header__language">
             <a href="/Uk_index.html">Ua</a>
             <a href="/">Eng</a>
           </div>
@@ -43,49 +46,54 @@
     <main>
       <section class="preview" id="advantages">
         <div class="container">
-          <div class="preview_logo">
+          <div class="preview__logo">
             <img src="./img/Nike.png" alt="Nike" />
-            <h2>C&R</h2>
+            <h2 class="preview__subtitle">C&R</h2>
           </div>
-          <h1>ColoRawe</h1>
-          <h2 class="subtitle">Your dream Nike</h2>
-          <p class="text">
+          <h1 class="preview__titel">ColoRawe</h1>
+          <h2 class="preview__subtitle">Your dream Nike</h2>
+          <p class="preview__descr">
             On this site you can find custom Nike sneakers of your dreams.
             <br />
             The original company caт`t create such beautiful <br />
             sneakers as we do. <br />
             Good luck finding your way in the world of custom sneakers. <br />
           </p>
-          <button class="bnt wow animate__flipInX animate__delay-5s  ">Buy my Nike</button>
+          <button class="preview__btn wow animate__flipInX animate__delay-5s">
+            Buy my Nike
+          </button>
         </div>
       </section>
-      <section class="benefits wow  animate__flipInX animate__delay-15s " id="benefits">
+      <section
+        class="benefits wow animate__flipInX animate__delay-15s"
+        id="benefits"
+      >
         <div class="container">
-          <ul class="benefits-lists">
-            <li class="benefits-item">
-              <h3 class="benefits-title">
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h3 class="benefits__title">
                 Premium <br />
                 Quality
               </h3>
-              <div class="benefits-img">
+              <div class="benefits__img">
                 <img src="./img/stars.png" alt="stars" />
               </div>
             </li>
-            <li class="benefits-item">
-              <div class="benefits-img">
+            <li class="benefits__item">
+              <div class="benefits__img">
                 <img src="./img/color.png" alt="color" />
               </div>
-              <h3 class="benefits-title">
+              <h3 class="benefits__title">
                 Indelible <br />
                 paint
               </h3>
             </li>
-            <li class="benefits-item-none">
-              <h3 class="benefits-title">
+            <li class="benefits__item--end">
+              <h3 class="benefits__title">
                 Fast <br />
                 shipping
               </h3>
-              <div class="benefits-img">
+              <div class="benefits__img">
                 <img src="./img/auto.png" alt="auto" />
               </div>
             </li>
@@ -94,56 +102,56 @@
       </section>
       <hr />
       <section class="reviews" id="reviews">
-        <div class="reviews-bg">
+        <div class="reviews__bg">
           <div class="container">
-            <h2>Reviews</h2>
+            <h2 class="reviews__title">Reviews</h2>
 
-            <ul class="revis">
-              <li class="revi-list">
-                <p>
+            <ul class="reviews__lists">
+              <li class="reviews__list">
+                <p class="reviews__descr">
                   Sneakers are very comfortable and well painted, nothing has
                   worn off in a year.
                 </p>
-                <h4>25.11</h4>
-                <div class="sochial">
-                  <div class="img">
+                <h4 class="reviews__subtext">25.11</h4>
+                <div class="reviews__sochial">
+                  <div class="reviews__img">
                     <img src="./icons/john.png" alt="john" />
                   </div>
-                  <div class="tecst">
-                    <h5>John Teylor</h5>
-                    <h6>With us from 2018</h6>
+                  <div class="reviews__tecst">
+                    <h5 class="reviews__descr">John Teylor</h5>
+                    <h6 class="reviews__subtext">With us from 2018</h6>
                   </div>
                 </div>
               </li>
-              <li class="revi-list-grand">
-                <p>
+              <li class="reviews__list--center">
+                <p class="reviews__descr">
                   I'm very happy with this color scheme. They match all my
                   clothes.
                 </p>
-                <h4>05.01</h4>
-                <div class="sochial">
-                  <div class="img">
+                <h4 class="reviews__subtext">05.01</h4>
+                <div class="reviews__sochial">
+                  <div class="reviews__img">
                     <img src="./icons/Elizabet.png" alt="Elizabet" />
                   </div>
-                  <div class="tecst">
-                    <h5>Elizabeth Garsia</h5>
-                    <h6>With us from 2020</h6>
+                  <div class="reviews__tecst">
+                    <h5 class="reviews__descr">Elizabeth Garsia</h5>
+                    <h6 class="reviews__subtext">With us from 2020</h6>
                   </div>
                 </div>
               </li>
-              <li class="revi_list">
-                <p>
+              <li class="reviews__list">
+                <p class="reviews__descr">
                   Just right if you need to go to a party. I use them actively,
                   the paint is super.
                 </p>
-                <h4>18.06</h4>
-                <div class="sochial">
-                  <div class="img">
+                <h4 class="reviews__subtext">18.06</h4>
+                <div class="reviews__sochial">
+                  <div class="reviews__img">
                     <img src="./icons/tom.png" alt="tom" />
                   </div>
-                  <div class="tecst">
-                    <h5>Tom Maquare</h5>
-                    <h6>With us from 2019n</h6>
+                  <div class="reviews__tecst">
+                    <h5 class="reviews__descr">Tom Maquare</h5>
+                    <h6 class="reviews__subtext">With us from 2019n</h6>
                   </div>
                 </div>
               </li>
@@ -154,53 +162,64 @@
       <hr />
       <section class="order" id="order">
         <div class="container">
-          <h2 class="order-title">Order</h2>
-          <form class="order_form">
-            <div class="order-email wow animate__flipInX animate__delay-5s ">
+          <h2 class="order__title">Order</h2>
+          <form class="order__form">
+            <div class="order__email wow animate__flipInX animate__delay-5s">
               <input type="email" placeholder="Write your email" />
               <input type="button" value="Confirm" />
             </div>
-            <input class="inpuut wow animate__flipInX animate__delay-5s " placeholder="Your Country" />
-            <input class="inpuut wow animate__flipInX animate__delay-5s " placeholder="Your City" />
-            <input class="inpuut wow animate__flipInX animate__delay-5s " placeholder="Your Adress" />
+            <input
+              class="order__input wow animate__flipInX animate__delay-5s"
+              placeholder="Your Country"
+            />
+            <input
+              class="order__input wow animate__flipInX animate__delay-5s"
+              placeholder="Your City"
+            />
+            <input
+              class="order__input wow animate__flipInX animate__delay-5s"
+              placeholder="Your Adress"
+            />
           </form>
-          <button class="btn wow animate__flipInX animate__delay-5s ">Order my Nike</button>
+          <button class="order__btn wow animate__flipInX animate__delay-5s">
+            Order my Nike
+          </button>
         </div>
       </section>
     </main>
-    <footer class="adress" id="adress">
+    <footer class="footer" id="adress">
       <div class="container">
-        <div class="block">
-          <div class="footer_block">
-            <table class="footer_table">
-              <tr class="footer_line">
-                <td class="footer_cell">Have a question?</td>
-                <td class="footer_cell_answer">ColoRawe_support@gmail.com</td>
+        <div class="footer__block-zagalny">
+          <div class="footer__block">
+            <table class="footer__table">
+              <tr class="footer__line">
+                <td class="footer__cell">Have a question?</td>
+                <td class="footer__cell_answer">ColoRawe_support@gmail.com</td>
               </tr>
-              <tr class="footer_line">
-                <td class="footer_cell">Have a proposal for cooperation?</td>
-                <td class="footer_cell_answer">
+              <tr class="footer__line">
+                <td class="footer__cell">Have a proposal for cooperation?</td>
+                <td class="footer__cell_answer">
                   ColoRawe_Cooperation@gmail.com
                 </td>
               </tr>
-              <tr class="footer_line">
-                <td class="footer_cell">Advertising questions?</td>
-                <td class="footer_cell_answer">
+              <tr class="footer__line">
+                <td class="footer__cell">Advertising questions?</td>
+                <td class="footer__cell_answer">
                   ColoRawe_Advertising@gmail.com
                 </td>
               </tr>
             </table>
           </div>
 
-          <hr class="hr_foot" />
-          <div class="footer_underline">
-            <div class="footer_text">
-              <h5 class="footer_h5">2022 ColoRawe @All rights reserved</h5>
-              <h5 class="footer_h5">United States</h5>
+          <hr class="footer__hr" />
+          <div class="footer__underline">
+            <div class="footer__text">
+              <h5 class="footer__titel">2022 ColoRawe @All rights reserved</h5>
+              <h5 class="footer__titel">United States</h5>
             </div>
-            <div class="footer_icon">
-              <img class="footer_pic" src=" ./icons/nike.svg " alt=" Nike " />
-              <h4 class="footer_h4">С&R</h4>
+            <div class="footer__icon">
+              <img class="footer__pic" src=" ./icons/nike.svg " alt=" Nike " />
+              <h4 class="footer__subtitel">С&R</h4>
             </div>
           </div>
         </div>

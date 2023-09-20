@@ -1,0 +1,116 @@
+.reviews {
+  background: url(../../img/backgraund-reviews.png) center/cover no-repeat;
+  &__title {
+    margin: 0;
+    @include title(48px);
+  }
+  &__descr {
+    @include subtext($color_2, 20px);
+ 
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  &__subtext {
+    color: $color_3;
+    @include subtext($color_3, 18px);
+
+    padding: 0;
+   margin:0;
+  }
+  &__subtext {
+    color: $color_3;
+    font-size: 15px;
+    font-family: $font-family_1;
+
+  }
+
+  &__bg {
+    padding: 25px 0 115px 0;
+    background: url(../../img/flowers.png) left bottom no-repeat;
+  }
+  hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $color_2;
+    height: 2px;
+  }
+  .flover {
+    width: 340px;
+    height: 380px;
+    flex-shrink: 0;
+  }
+  &__lists{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-top: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  &__list {
+    transition: all 0.8s ease;
+    width: 255px;
+    padding: 50px 15px 30px;
+    border-radius: 15px;
+    background: linear-gradient(
+      135deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+    box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+    &:hover {
+      flex: 2;
+    }
+  }
+  &__list--center {
+    transition: all 0.8s ease;
+    width: 255px;
+    padding: 50px 15px 30px;
+    border-radius: 15px;
+    background: linear-gradient(
+      135deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+    box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+    &:hover {
+      flex: 2;
+    }
+  }
+  &__list {
+    transition: all 0.8s ease;
+    width: 255px;
+    padding: 50px 15px 30px;
+    border-radius: 15px;
+    background: linear-gradient(
+      135deg,
+      #ffe128 0%,
+      #ff9b5c 30.21%,
+      #ff8381 63.29%,
+      #ff5489 100%
+    );
+    box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+    &:hover {
+      flex: 2;
+    }
+  }
+  &__sochial {
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  &__tecst {
+    padding: 10px;
+  }
+}

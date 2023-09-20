@@ -18,9 +18,10 @@ footer a {
 }
 
 .hr_foot {
-  width: 1110px;
+  width: 100%;
   background: #9b9b9b;
   border: 0;
+  margin-top: 20px;
 }
 
 .footer_h4 {

@@ -1,0 +1,53 @@
+.preview {
+  background: url(../../img/crosu.png) center/cover no-repeat;
+  padding-bottom: 183px;
+  padding-top: 94px;
+  margin-top: 93px;
+  &__subtitle {
+    @include subtitle(58px);
+  }
+  &__title {
+    @include title(36px);
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  &__titel {
+    @include subtitle(58px);
+  }
+
+  &__logo {
+    &__subtitle {
+      display: flex;
+      width: 128px;
+      height: 86px;
+      flex-direction: column;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    img {
+      display: flex;
+      width: 178px;
+      height: 86px;
+      flex-direction: column;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__subtitle {
+    @include subtitle(48px);
+  }
+  &__descr {
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 0px;
+    color: $color_2;
+  }
+  &__btn {
+    @include button;
+  }
+}
