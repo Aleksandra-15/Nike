@@ -3,10 +3,12 @@
   &__title {
     margin: 0;
     @include title(48px);
+    @media (max-width: 480px) {
+      font-size: 36px;
+    }
   }
   &__descr {
     @include subtext($color_2, 20px);
- 
 
     margin-top: 0px;
     margin-bottom: 0px;
@@ -16,13 +18,12 @@
     @include subtext($color_3, 18px);
 
     padding: 0;
-   margin:0;
+    margin: 0;
   }
   &__subtext {
     color: $color_3;
     font-size: 15px;
     font-family: $font-family_1;
-
   }
 
   &__bg {
@@ -40,15 +41,28 @@
     height: 380px;
     flex-shrink: 0;
   }
-  &__lists{
-    display:flex;
+  &__lists {
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 480px) {
+      flex-wrap: wrap;
+      gap: 93px;
+      padding-left: 0px;
+    }
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      gap: 93px;
+    }
+    @media (max-width: 1200px) {
+      gap: 93px;
+    }
   }
   &__list {
     list-style-type: none;
     display: flex;
     padding: 0;
+    height: 292px;
     margin-top: 24px;
     align-items: flex-start;
     flex-direction: column;
@@ -75,6 +89,7 @@
     width: 255px;
     padding: 50px 15px 30px;
     border-radius: 15px;
+    height: 292px;
     background: linear-gradient(
       135deg,
       #ff68b4 0%,

@@ -1,6 +1,15 @@
 .container {
-    width: 1140px;
+  
     margin: 0 auto;
+    @media (min-width:320px) {
+      padding: 0 27px;
+    }
+    @media (min-width:768px) {
+      padding: 0 20px;
+    }
+    @media (min-width:1200px) {
+      width: 1140px;
+    }
   }
   a{
     text-decoration: none;

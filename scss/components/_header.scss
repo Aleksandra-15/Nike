@@ -7,21 +7,80 @@
   height: 93px;
   display: flex;
   align-items: center;
+  opacity: 1;
   box-sizing: border-box;
   justify-content: space-evenly;
-
+  &__hamburger {
+    @media (min-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      &__span {
+        transition: 0.5s;
+        width: 24px;
+        height: 2px;
+        display: block;
+        background-color: $color_4;
+      }
+    }
+    @media (min-width: 768px) {
+      display: none;
+    }
+    &__humburger {
+      display: flex;
+      align-items: flex-end;
+    }
+    .nav {
+      position: absolute;
+      top: 0;
+      margin: 0;
+      width: 50%;
+      height: 100vh;
+      left: -100%;
+      padding: 20px;
+      transition: 0.5s;
+      background: var(--Dark-Primary, #2a254b);
+      box-shadow: 0 12px 20px #00000033;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    input[type="checkbox"]:checked ~ label .toggle-btn {
+      transform: rotate(-45deg);
+    }
+    input[type="checkbox"]:checked ~ label .toggle-btn::after {
+      transform: rotate(0);
+      top: 0;
+    }
+    input[type="checkbox"]:checked ~ label .toggle-btn::before {
+      transform: rotate(90deg);
+      top: 0;
+    }
+    input[type="checkbox"]:checked ~ .nav {
+      display: block;
+      left: 0;
+    }
+  }
   &__block {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 480px) {
+      display: block;
+    }
   }
   &__list {
     gap: 30px;
-    padding: 0;
-    margin: auto;
     display: flex;
     justify-content: space-around;
-    list-style-type: none;
+
+    @media (max-width: 480px) {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
   }
   &__item {
     a {
@@ -35,6 +94,10 @@
       &:hover {
         color: $color_2;
       }
+
+      @media (max-width: 768px) {
+        font-size: 17px;
+      }
     }
   }
   &__language {
@@ -46,8 +109,18 @@
       line-height: 28px;
       text-decoration: none;
       color: $color_1;
+      @media (max-width: 768px) {
+        font-size: 17px;
+      }
     }
     gap: 30px;
     display: flex;
+    @media (max-width: 480px) {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0;
+    }
   }
 }

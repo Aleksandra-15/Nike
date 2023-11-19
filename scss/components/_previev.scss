@@ -3,6 +3,12 @@
   padding-bottom: 183px;
   padding-top: 94px;
   margin-top: 93px;
+  @media (min-width: 320px) {
+    margin: 0;
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+  }
   &__subtitle {
     @include subtitle(58px);
   }
@@ -18,25 +24,31 @@
   &__logo {
     &__subtitle {
       display: flex;
-      width: 128px;
-      height: 86px;
       flex-direction: column;
-      flex-shrink: 0;
       align-items: center;
       justify-content: space-evenly;
     }
     img {
-      display: flex;
       width: 178px;
       height: 86px;
-      flex-direction: column;
+
+      @media (min-width: 320px) {
+        height: 72px;
+        width: 96px;
+      }
+      @media (min-width: 768px) {
+      }
     }
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
   &__subtitle {
     @include subtitle(48px);
+    @media (min-width: 320px) {
+      font-size: 24px;
+    }
+    @media (min-width: 768px) {
+    }
   }
   &__descr {
     font-family: $font-family_1;
@@ -49,5 +61,13 @@
   }
   &__btn {
     @include button;
+    @media (max-width: 480px) {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (min-width: 768px) {
+    }
   }
 }
